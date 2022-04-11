@@ -12,7 +12,7 @@ public class DataLoader extends DataConstants{
     public static ArrayList<User> getUsers(){
         ArrayList<User> users = new ArrayList<User>();
         try{ 
-            FileReader reader = new FileReader("/C:/Users/kevin/Documents/CSCE247/PizzaRatzTesting/users.json");
+            FileReader reader = new FileReader("/Users/blaisemoses/Desktop/rip/users.json");
             JSONParser parser = new JSONParser();
             JSONArray usersJSON = (JSONArray)new JSONParser().parse(reader);
 
