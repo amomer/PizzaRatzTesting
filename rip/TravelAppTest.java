@@ -27,15 +27,15 @@ class TravelAppTest {
         friends.add("Joe");
         ages.add(20);
         userList.clear();
-        userList.add(new User(8,"Jerome","jeromethecool","jCOOLest34", 19, friends, ages, bookings));
+        userList.add(new User(8,"Jerome","jeromethecool","jRome314@outlook.com","jCOOLest34", 19, friends, ages, bookings));
         DataWriter.saveUsers();
         }
 
-    @AfterEach
-	public void tearDown() {
-		Users.getInstance().getUsers().clear();
-		DataWriter.saveUsers();
-	}
+    //@AfterEach
+	//public void tearDown() {
+	//	Users.getInstance().getUsers().clear();
+	//	DataWriter.saveUsers();
+	//}
 
     @Test
     void testLoginCaseSensitivity(){
