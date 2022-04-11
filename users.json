@@ -1,0 +1,23 @@
+[
+    {
+        "id":1,
+        "name":"Matt Davis",
+        "username":"mdavisboi32",
+        "email":"mdavis@gmail.com",
+        "password":"mamadavis4life",
+        "age":26,
+        "friendNames":["James Davis","Emily Davis"],
+        "friendAges":[6,25],
+        "bookings": []
+    },{
+        "id":2,
+        "name":"Charles Goodwin",
+        "username":"naturallySelected24",
+        "email":"ggoodwin@gmail.com",
+        "password":"darwin24good",
+        "age":48,
+        "friendNames":[],
+        "friendAges":[],
+        "bookings": []
+    }
+]
